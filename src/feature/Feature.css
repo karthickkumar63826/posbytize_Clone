@@ -1,0 +1,147 @@
+.feature_box {
+  margin-top: 80px;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature_top {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature_heading {
+  text-align: center;
+}
+
+.feature_heading h2 {
+  font-size: 60px;
+  font-weight: 600;
+  color: black;
+}
+
+.feature_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 50px;
+  height: 17 0px;
+}
+
+.feature_icon_box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 180px;
+  gap: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.feature_icon_box p {
+  font-weight: 600;
+}
+
+.feature_bottom {
+  margin-top: 50px;
+  padding: 50px 200px;
+  animation: insideOut 0.4s ease-out;
+}
+
+.feature_bottom_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.feature_content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+
+.feature_content h4 {
+  font-size: 21px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.feature_points {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.feature_point {
+  display: flex;
+  font-weight: 600;
+  align-items: flex-start;
+}
+
+.feature_point .feature_content {
+  margin-left: 8px;
+}
+
+.feature_points li {
+  color: black;
+  margin-top: 10px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.feature_list .active {
+  border-bottom: 3px solid #ff8c00;
+}
+.feature_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature_image img {
+  width: 90%;
+  height: 55%;
+}
+
+.check_icon {
+  font-size: 15px;
+}
+
+@keyframes insideOut {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 786px) {
+  .feature_heading h2 {
+    font-size: 25px;
+  }
+
+  .feature_list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature_bottom {
+    padding: 20px 0;
+  }
+
+  .feature_bottom_container {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  .feature_image img {
+    width: 85%;
+    height: 85%;
+  }
+}

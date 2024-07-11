@@ -1,0 +1,180 @@
+.integrations {
+  max-width: 100%;
+  margin: 100px 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 0 12px;
+  max-height: auto;
+}
+
+.integrations_content {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+.integrations_content h1 {
+  font-size: 34px;
+  color: #2c2c51;
+  font-weight: 600;
+}
+
+.integrations_content p {
+  font-size: 16px;
+  color: #7b7b93;
+}
+
+.integrations_icons {
+  max-width: 90%;
+  height: 370px;
+  position: relative;
+  margin-left: 10%;
+}
+
+.integrations_icons img {
+  transform: rotate(20deg) skew(-20deg);
+  border-radius: 10px;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(2, 45, 79, 0.1);
+  box-shadow: 0 2px 4px 0 rgba(2, 45, 79, 0.1);
+  position: absolute;
+  -webkit-transform: matrix(0.97029, 0.34192, -0.84486, 0.9425, 0, 0);
+  transform: matrix(0.97029, 0.34192, -0.84486, 0.9425, 0, 0);
+  opacity: 1;
+  animation: visibleAnimation 0.3s ease-in;
+}
+
+.integrations_icons img:nth-child(1) {
+  top: 0;
+  left: 25px;
+  -webkit-box-shadow: 0 30px 30px 0 rgba(2, 45, 79, 0.1);
+  box-shadow: 0 30px 30px 0 rgba(2, 45, 79, 0.1);
+}
+
+.integrations_icons img:nth-child(2) {
+  top: 35px;
+  left: 150px;
+}
+
+.integrations_icons img:nth-child(3) {
+  top: 110px;
+  left: 250px;
+}
+
+.integrations_icons img:nth-child(4) {
+  top: 15px;
+  left: 390px;
+}
+
+.integrations_icons img:nth-child(5) {
+  top: 89px;
+  left: 475px;
+}
+
+.integrations_icons img:nth-child(6) {
+  top: 20px;
+  left: 680px;
+}
+
+.integrations_icons img:nth-child(7) {
+  top: 0;
+  left: 870px;
+}
+
+.integrations_icons img:nth-child(8) {
+  top: 40%;
+  left: 35px;
+}
+
+.integrations_icons img:nth-child(9) {
+  top: 182px;
+  left: 585px;
+  -webkit-box-shadow: 10px 30px 30px 0 rgba(2, 45, 79, 0.15);
+  box-shadow: 10px 30px 30px 0 rgba(2, 45, 79, 0.15);
+}
+
+.integrations_icons img:nth-child(10) {
+  top: 130px;
+  left: 780px;
+}
+
+.integrations_icons img:nth-child(11) {
+  top: 128px;
+  left: 950px;
+}
+
+.integrations_icons img:nth-child(12) {
+  bottom: 15px;
+  right: 180px;
+}
+
+.integrations_icons img:nth-child(13) {
+  bottom: 0;
+  left: -35px;
+}
+
+.integrations_icons img:nth-child(14) {
+  bottom: 30px;
+  left: 150px;
+}
+
+.integrations_icons img:nth-child(15) {
+  bottom: 20px;
+  left: 310px;
+}
+
+.integrations_icons img:nth-child(16) {
+  bottom: -25px;
+  left: 460px;
+}
+
+.integrations_icons img:nth-child(17) {
+  bottom: 35px;
+  left: 690px;
+}
+
+.integrations_icons img:nth-child(18) {
+  bottom: -30px;
+  left: 800px;
+}
+
+.integrations_icons img:nth-child(19) {
+  bottom: 45px;
+  left: 940px;
+}
+
+.integrations_icons img:nth-child(20) {
+  bottom: 0;
+  right: 0;
+}
+
+@keyframes visibleAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .integrations_icons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    height: auto;
+    position: static;
+    margin: auto;
+  }
+
+  .integrations_icons img {
+    position: static;
+    margin: 5px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+}

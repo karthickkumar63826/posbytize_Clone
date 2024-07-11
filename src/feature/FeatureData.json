@@ -1,0 +1,65 @@
+[
+    {   
+        "id":1,
+        "icon": "https://posbytz.com/wp-content/uploads/2023/07/itl1.png",
+        "iconName" : "POS",
+        "heading": "Our POS software offers a wide range of powerful features designed to enhance your retail and restaurant operations. Here are some key highlights:",
+        "points": ["Easy-to-Use Interface","Device Agnotic can be installed in Windows, Android and IOS","Works well for both Restaurant and Retail business","Multiple channel Sales management","Integrations with printers, scanner ,weighing scales and label printers"],
+        "mainImage": "https://posbytz.com/wp-content/uploads/2023/07/Untitled-87.png",
+        "color": "#FF8C00"
+    },
+    {   "id":2,
+        "icon": "https://posbytz.com/wp-content/uploads/2023/07/Untitl.png",
+        "iconName": "Order Management",
+        "heading": "Our order management system is designed to streamline and optimize the orders from multiple channels outlets or online channels. Here are some key features of our order management system:",
+        "points":["Manage Sales orders from multiple channels", "Customise multi pricing for same items different channels",  "Manage inventory of SKUs for different channels", "Get consolidates reports based on orders from all channels", "Manage Delivery for online orders through our Delivery options"],
+        "mainImage": "https://posbytz.com/wp-content/uploads/2023/07/Untitled-6-1.png",
+        "color": "#BA2A00"
+        },
+        {
+            "id":3,
+        "icon" : "https://posbytz.com/wp-content/uploads/2023/07/itled-1.png",
+        "iconName": "Purchase & Inventory Management",
+        "heading" : "Our comprehensive purchase and inventory management features empower your retail or restaurant business to efficiently manage and optimize your purchasing processes and inventory levels. Here are the key features that our software offers:",
+        "points" : ["Purchase Order Creation: Generate purchase orders directly within the system", "Supplier Management: Manage your vendors track all your purchase and payments against any vendor", "Inventory Tracking: Keep real-time track of your inventory levels", "including stock quantities, locations, and availability.", "Reorder Point and Auto-Replenishment: Set up reorder points for products to automatically trigger purchase orders when inventory reaches a predefined threshold.", "Reporting and Analytics: Generate comprehensive reports and analyse inventory data to gain insights into cost of goods, inventory stock reports etc..,"],
+        "mainImage": "https://posbytz.com/wp-content/uploads/2023/07/Untitled-9-1.png",
+        "color": "#3F25A4"
+    },{
+        "id":4,
+        "icon":"https://posbytz.com/wp-content/uploads/2023/07/Untitled-.png",
+        "iconName":"Ecommerce & Online Ordering",
+        "heading":"Our Omnichannel ecommerce and online ordering features provide a seamless and convenient way for your retail or restaurant business to expand its reach and cater to the growing demands of online customers.",
+        "points":["Online Store Creation: Establish an attractive and user-friendly online store to showcase your products or menu items. Customize the design, layout, and branding to create a unique online shopping experience that reflects your brand identity", "Product Catalog Management: Easily manage your product inventory within the online store. Add new products, update pricing and descriptions, and categorize items for easy navigation.", "Order Placement: Allow customers to place orders directly through your online store along with secure payments options", "Delivery and Pickup Options: Offer customers the choice of delivery or pickup for their online orders. Provide accurate delivery time estimates, define delivery zones, and delivery fees.", "Headless commerce API’s : Build your ecommerce website as per your UI/UX requirement in ease using our on-self Headless commerce API’s"],
+        "mainImage":"https://posbytz.com/wp-content/uploads/2023/07/Untitled-4-1.png",
+        "color":"#8A1E44"
+    },
+    {   
+        "id":5,
+        "icon":"https://posbytz.com/wp-content/uploads/2023/07/1.png",
+        "iconName":"Accounting & Finance",
+        "heading":"Our accounting and finance features provide robust tools to manage the financial aspects of your retail or restaurant business from tracking expenses to generating financial reports",
+        "points":["General Ledger: Maintain a centralized and organized record of your financial transactions, including sales, purchases, expenses, and payments. Our software automatically updates the general ledger, ensuring accurate and up-to-date financial reports", "Accounts Payable and Receivable: Manage your payables and receivables efficiently. Keep track of outstanding invoices, manage vendor payments, and handle customer invoices and payments.", "Financial Reporting: Generate various financial reports, such as income statements, balance sheets, Trial balance, General Ledgers and profit and loss statements.", "Expense Management: Track and categorize expenses, including overhead costs, vendor payments, and employee reimbursements."],
+        "mainImage":"https://posbytz.com/wp-content/uploads/2023/07/Untitled-3-1.png",
+        "color":"#3DBB8B"
+
+    },
+    {   
+        "id":6,
+        "icon":"https://posbytz.com/wp-content/uploads/2023/07/Un.png",
+        "iconName":"CRM & Marketing Automation",
+        "heading":"Our CRM (Customer Relationship Management) and marketing automation features are designed to help you effectively manage customer interactions, nurture relationships, and automate marketing campaigns.",
+        "points":["Customer Database Management: Maintain a centralized customer database with detailed profiles, including contact information, purchase history, preferences, and communication history.", "Customer Grouping: Group your customer database into segments based on demographics, behaviour, purchase history, or other criteria", "Email Marketing Automation: Automate email campaigns and workflows to engage customers at various stages of their journey. Set up triggered emails for welcome messages, occasional days, abandoned carts, order confirmations, and more.", "Customer Communication: Manage customer communication through various channels, including email, SMS, and social media. relationships. Social Media Integration: Integrate with social media platforms to monitor and engage with customers on social channels."],
+        "mainImage":"https://posbytz.com/wp-content/uploads/2023/07/Untitled-16-1.png",
+        "color": "#892780"
+
+    },{
+        "id":7,
+        "icon":"https://posbytz.com/wp-content/uploads/2023/07/Un.png",
+        "iconName":"HR & Payroll",
+        "heading":"Our HR (Human Resources) and Payroll features provide comprehensive tools to streamline your employee management and payroll processes. Here are the key features our software offers:",
+        "points":["Employee Database: Maintain a centralized employee database with essential information, including personal details, employment history, job roles, and certifications.", "Attendance and Time Tracking: Track employee attendance and working hours efficiently. Our software supports various methods of time tracking, including manual entry, biometric devices, or integrations with time clock systems.", "Leave Management: Streamline the process of managing employee leaves, including vacation days, sick leave, and other types of time off.", "Payroll Processing: Automate your payroll calculations and streamline the payroll process. Our software handles salary calculations, tax deductions, benefits, and other payroll components..", "Tax & Statutory Compliance: Stay compliant with tax regulations by automating tax calculations and deductions"],
+        "mainImage":"https://posbytz.com/wp-content/uploads/2023/07/369.png",
+        "color": "#875143"
+    }
+
+]

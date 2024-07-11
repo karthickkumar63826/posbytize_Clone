@@ -1,0 +1,43 @@
+.bottomBanner {
+  height: 50vh;
+  background-color: #ff8c00;
+  padding: 70px 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 1000px;
+}
+
+.banner-container h1 {
+  font-size: 40px;
+  line-height: 4.5rem;
+  font-weight: 700;
+}
+
+.bottomBanner-btn button {
+  width: auto;
+  border: none;
+  outline: none;
+  padding: 10px 40px;
+  color: #ff8c00;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+@media (max-width: 786px) {
+  .banner-container h1{
+    font-size: 25px;
+    max-width: auto;
+    line-height: 2.5rem;
+    font-weight: 700;
+  }
+}

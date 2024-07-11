@@ -1,0 +1,61 @@
+.youtube-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+  gap: 50px;
+}
+
+.top_content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.top_content h1 {
+  font-size: 3.6rem;
+  color: black;
+  font-weight: 600;
+}
+
+.top_content h4 {
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 600;
+}
+
+.top_content p {
+  font-size: 1.2rem;
+}
+
+.top_content p span {
+  color: #ff8c00;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 786px) {
+  .how {
+    margin-top: 3rem;
+    gap: 20px;
+  }
+
+  .top_content h1 {
+    font-size: 2.1rem;
+  }
+
+  .top_content h4 {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .top_content p {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  iframe {
+    width: 95%;
+    height: 250px;
+  }
+}

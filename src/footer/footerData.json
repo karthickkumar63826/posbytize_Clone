@@ -1,0 +1,7 @@
+[
+    {"title":"product" , "List" : ["Pricing", "Watch Videos", "Best POS Software", "PosBytz for Reestaurants", "PosBytz for Retail", "Cloud POS", "Android POS", "PosBytz for Small Business"]},
+    {"title" : "company" , "List": ["About Us", "Contact Us", "PosBytz Blog", "Terms and Conditions", "Privacy Policy"]},
+    {"title" :"support" , "List": ["Help Center", "Status Monitor", "Contact Support"]},
+    {"title" : "partners", "List" :["Partner Program", "Become a Partner", "Partner Portal"]},
+    {"title":"account", "List" :["Login to PosBytz", "Register with PosBytz"]}
+]
