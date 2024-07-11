@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import FeatureDatas from "./FeatureData.json";
 import FeatureTop from "./FeatureTop";
 import "./Feature.css";
