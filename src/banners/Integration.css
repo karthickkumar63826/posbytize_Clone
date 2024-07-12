@@ -178,3 +178,23 @@
     max-height: 100px;
   }
 }
+
+@media (min-width: 786px) and (max-width: 992px) {
+  .integrations_icons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    height: auto;
+    position: static;
+    margin: auto;
+  }
+
+  .integrations_icons img {
+    position: static;
+    margin: 5px;
+    max-width: 120px;
+    max-height: 120px;
+  }
+}

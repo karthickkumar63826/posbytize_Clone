@@ -130,7 +130,22 @@
 }
 
 @media (max-width: 768px) {
+  .footer-main {
+    width: 90%;
+    padding-left: 0;
+  }
   .grid-container {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 786px) and (max-width: 992px) {
+  .footer-main {
+    width: 400px;
+    grid-column: span 2;
+    padding-left: 0;
+  }
+  .grid-container {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
   }
 }
