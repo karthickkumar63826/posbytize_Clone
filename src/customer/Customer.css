@@ -51,11 +51,8 @@
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-}
-
-.customers-list__swiper {
   width: 100%;
-  height: 150px;
+  height: 160px;
 }
 
 .customer_btn {
@@ -88,5 +85,31 @@
 
   .customer_heading {
     text-align: center;
+  }
+
+  .swipe img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .customers-list__swiper {
+    gap: 40px;
+  }
+}
+
+@media (min-width: 786px) and (max-width: 992px) {
+  .customer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .swipe img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .customers-list__swiper {
+    gap: 40px;
   }
 }

@@ -20,7 +20,7 @@ const FeatureTop = ({ FeatureDatas, setFeatureId, featureId }) => {
             onClick={() => handleClick(featureData.id)}
           >
             <img src={featureData.icon} alt={featureData.iconName} />
-            <p style={{ color: `${featureData.color}` }}>
+            <p style={{ color: `${featureData.color}`, fontSize: "14px" }}>
               {featureData.iconName}
             </p>
           </div>

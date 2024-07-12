@@ -142,6 +142,23 @@
 
   .feature_image img {
     width: 85%;
-    height: 85%;
+  }
+
+  .feature_content h4 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 786px) and (max-width: 992px) {
+  .feature_heading h2 {
+    font-size: 2.2rem;
+  }
+
+  .feature_content h4 {
+    font-size: 19px;
+  }
+
+  .feature_image img {
+    max-width: 90%;
   }
 }

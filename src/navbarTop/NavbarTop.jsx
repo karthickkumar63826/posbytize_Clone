@@ -7,7 +7,7 @@ import HeaderTop from "../headerTop/HeaderTop";
 import NavbarDatas from "./Navbar.json";
 
 const NavbarTop = () => {
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 992);
   const [menuOpen, setMenuOpen] = useState(false);
   const [hoveredItem, setHoveredItem] = useState(null);
   const [hoveredInnerItem, setHoveredInnerItem] = useState(null);
@@ -15,13 +15,14 @@ const NavbarTop = () => {
   const [clickedInnerItem, setClickedInnerItem] = useState(null);
 
   const handleResize = () => {
-    setIsMobile(window.innerWidth <= 768);
+    setIsMobile(window.innerWidth <= 992);
   };
 
   const handleClick = () => {
     setMenuOpen(!menuOpen);
   };
 
+ 
   useEffect(() => {
     window.addEventListener("resize", handleResize);
     return () => {

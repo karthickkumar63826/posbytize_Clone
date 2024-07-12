@@ -19,6 +19,11 @@ const Customer = () => {
     "https://posbytz.com/wp-content/uploads/2023/09/Diamond-Restaurant.png",
   ];
 
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 486);
+  const [isTablet, setIsTablet] = useState(
+    window.innerWidth <= 992 && window.innerWidth > 486
+  );
+
   const [swiperIndexes, setSwiperIndexes] = useState({
     swiper1: 0,
     swiper2: 4,
@@ -39,7 +44,24 @@ const Customer = () => {
     }));
   };
 
+  const handleResize = () => {
+    setIsMobile(window.innerWidth <= 486);
+    setIsTablet(window.innerWidth <= 992 && window.innerWidth > 486);
+  };
+  useEffect(() => {
+    return () => window.addEventListener("resize", handleResize);
+  }, []);
+
   const getCustomersToShow = (startIndex) => {
+    if (isTablet) {
+      return [
+        customers[startIndex % customers.length],
+        customers[(startIndex + 1) % customers.length],
+      ];
+    } else if (isMobile) {
+      return [customers[startIndex % customers.length]];
+    }
+
     return [
       customers[startIndex % customers.length],
       customers[(startIndex + 1) % customers.length],
@@ -55,7 +77,7 @@ const Customer = () => {
         swiper2: (prevIndexes.swiper2 + 1) % customers.length,
         swiper3: (prevIndexes.swiper3 + 1) % customers.length,
       }));
-    }, 3000);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, []);
