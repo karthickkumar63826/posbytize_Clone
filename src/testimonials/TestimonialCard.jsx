@@ -27,7 +27,7 @@ const TestimonialCard = ({ testimonial }) => {
           <div className="rating">
             <div className="stars">
               {stars.map((_, index) => (
-                <FaRegStar key={index} style={{ color: "gold" }} />
+                <FaRegStar key={index} className="star" />
               ))}
             </div>
           </div>

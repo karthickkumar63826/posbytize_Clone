@@ -46,7 +46,9 @@
 }
 
 .nav_links_item {
-  padding: 20px 0;
+  padding: 25px 0;
+  transition: 0.2s ease;
+
 }
 
 .nav_links_item div {
@@ -55,12 +57,15 @@
   position: relative;
 }
 
+.nav_links_item div:hover {
+  color: #ff8c00;
+}
 .nav_links_item .main_data {
   font-size: 15px;
   font-weight: 500;
 }
-.nav_links_item div:hover {
-  color: #ff8c00;
+.nav_links_item :hover {
+  border-bottom: 1px solid #ff8c00;
 }
 
 .nav_links2 {
@@ -230,7 +235,6 @@
     flex-direction: column;
   }
 
- 
   .opened-menu {
     margin: 0;
     background: white;
@@ -290,7 +294,6 @@
     display: flex;
     flex-direction: column;
   }
-
 
   .opened-menu {
     margin: 0;
