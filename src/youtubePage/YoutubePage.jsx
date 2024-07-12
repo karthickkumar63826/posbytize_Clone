@@ -20,9 +20,7 @@ const YoutubePage = () => {
         height="600px"
         src="https://www.youtube.com/embed/xxQzhDkWPpc?si=CSc7_oMgNm1Z_cgu"
         title="YouTube video player"
-        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
       ></iframe>
     </div>
   );

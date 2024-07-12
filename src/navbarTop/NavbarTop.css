@@ -39,7 +39,6 @@
 
 .menu {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding-top: 8px;
@@ -47,7 +46,7 @@
   margin-top: 10px;
 }
 
-.nav_links_item{
+.nav_links_item {
   padding: 20px 0;
 }
 
@@ -244,7 +243,7 @@
     align-items: flex-start;
   }
 
-  .nav_links2_item{
+  .nav_links2_item {
     display: flex;
   }
 

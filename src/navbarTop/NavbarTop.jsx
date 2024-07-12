@@ -70,7 +70,7 @@ const NavbarTop = () => {
       <HeaderTop />
       <nav className="navbar">
         <div className="container navbar-container">
-          <div className="navbar-brand sticky-logo">
+          <div className="navbar-brand">
             <img
               src="https://posbytz.com/wp-content/uploads/2021/09/logo_default.svg"
               alt="Logo"
