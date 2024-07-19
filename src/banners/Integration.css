@@ -164,15 +164,15 @@
   .integrations_icons {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
-    gap: 15px;
+    align-items: center;
+    gap: 25px;
     height: auto;
     position: static;
     margin: auto;
   }
 
-  .integrations_icons img {
+  .integrations_icons div {
     position: static;
     margin: 5px;
     max-width: 100px;
@@ -184,15 +184,15 @@
   .integrations_icons {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
-    gap: 25px;
+    align-items: center;
+    gap: 35px;
     height: auto;
     position: static;
     margin: auto;
   }
 
-  .integrations_icons img {
+  .integrations_icons div {
     position: static;
     margin: 5px;
     max-width: 120px;
