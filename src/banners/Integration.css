@@ -33,119 +33,120 @@
   position: relative;
   margin-left: 10%;
 }
+.integrations_icons div {
+  position: absolute;
+}
 
 .integrations_icons img {
   transform: rotate(20deg) skew(-20deg);
   border-radius: 10px;
   -webkit-box-shadow: 0 2px 4px 0 rgba(2, 45, 79, 0.1);
   box-shadow: 0 2px 4px 0 rgba(2, 45, 79, 0.1);
-  position: absolute;
+
   -webkit-transform: matrix(0.97029, 0.34192, -0.84486, 0.9425, 0, 0);
   transform: matrix(0.97029, 0.34192, -0.84486, 0.9425, 0, 0);
   opacity: 1;
   animation: visibleAnimation 0.3s ease-in;
 }
 
-.integrations_icons img:nth-child(1) {
+.integrations_icons div:nth-child(1) {
   top: 0;
   left: 25px;
   -webkit-box-shadow: 0 30px 30px 0 rgba(2, 45, 79, 0.1);
   box-shadow: 0 30px 30px 0 rgba(2, 45, 79, 0.1);
 }
 
-.integrations_icons img:nth-child(2) {
+.integrations_icons div:nth-child(2) {
   top: 35px;
   left: 150px;
 }
 
-.integrations_icons img:nth-child(3) {
+.integrations_icons div:nth-child(3) {
   top: 110px;
   left: 250px;
 }
 
-.integrations_icons img:nth-child(4) {
+.integrations_icons div:nth-child(4) {
   top: 15px;
   left: 390px;
 }
 
-.integrations_icons img:nth-child(5) {
+.integrations_icons div:nth-child(5) {
   top: 89px;
   left: 475px;
 }
 
-.integrations_icons img:nth-child(6) {
+.integrations_icons div:nth-child(6) {
   top: 20px;
   left: 680px;
 }
 
-.integrations_icons img:nth-child(7) {
+.integrations_icons div:nth-child(7) {
   top: 0;
   left: 870px;
 }
 
-.integrations_icons img:nth-child(8) {
+.integrations_icons div:nth-child(8) {
   top: 40%;
   left: 35px;
 }
 
-.integrations_icons img:nth-child(9) {
+.integrations_icons div:nth-child(9) {
   top: 182px;
   left: 585px;
-  -webkit-box-shadow: 10px 30px 30px 0 rgba(2, 45, 79, 0.15);
-  box-shadow: 10px 30px 30px 0 rgba(2, 45, 79, 0.15);
 }
 
-.integrations_icons img:nth-child(10) {
+.integrations_icons div:nth-child(10) {
   top: 130px;
   left: 780px;
 }
 
-.integrations_icons img:nth-child(11) {
+.integrations_icons div:nth-child(11) {
   top: 128px;
   left: 950px;
 }
 
-.integrations_icons img:nth-child(12) {
+.integrations_icons div:nth-child(12) {
   bottom: 15px;
   right: 180px;
 }
 
-.integrations_icons img:nth-child(13) {
+.integrations_icons div:nth-child(13) {
   bottom: 0;
   left: -35px;
 }
 
-.integrations_icons img:nth-child(14) {
+.integrations_icons div:nth-child(14) {
   bottom: 30px;
   left: 150px;
 }
 
-.integrations_icons img:nth-child(15) {
+.integrations_icons div:nth-child(15) {
   bottom: 20px;
   left: 310px;
 }
 
-.integrations_icons img:nth-child(16) {
+.integrations_icons div:nth-child(16) {
   bottom: -25px;
   left: 460px;
 }
 
-.integrations_icons img:nth-child(17) {
+.integrations_icons div:nth-child(17) {
   bottom: 35px;
   left: 690px;
 }
 
-.integrations_icons img:nth-child(18) {
+.integrations_icons div:nth-child(18) {
   bottom: -30px;
   left: 800px;
 }
 
-.integrations_icons img:nth-child(19) {
+.integrations_icons div:nth-child(19) {
   bottom: 45px;
   left: 940px;
 }
 
-.integrations_icons img:nth-child(20) {
+.integrations_icons div:nth-child(20) {
   bottom: 0;
   right: 0;
 }
